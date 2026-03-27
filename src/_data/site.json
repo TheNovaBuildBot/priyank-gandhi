@@ -1,19 +1,14 @@
 {
   "name": "Priyank Gandhi",
-  "title": "Priyank Gandhi | Software Engineer & Technology Professional",
-  "specialty": "Software Engineer & Technology Professional",
-  "qualifications": "San José State University Graduate | Amazon | Hackathon Winner",
-  "phone": "+14084615325",
-  "phone_display": "+1 (408) 461-5325",
+  "title": "Priyank Gandhi",
+  "specialty": "Software Engineer & Technology Leader",
+  "qualifications": "San José State University | Amazon | Hackathon Winner",
   "email": "email@priyankgandhi.com",
-  "address": "Redwood City, California, United States",
-  "address_short": "California, United States",
+  "address": "Redwood City, California",
   "city": "Redwood City",
   "url": "https://priyank-gandhi.pages.dev",
   "linkedin": "https://www.linkedin.com/in/priyankgandhi",
   "github": "https://github.com/priyankgandhi",
   "permtrackr": "https://www.permtrackr.com",
-  "personal_site": "http://www.priyankgandhi.com",
-  "whatsapp_message": "Hi Priyank! I'd like to connect with you about a software engineering opportunity.",
   "ga_id": ""
 }

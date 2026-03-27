@@ -1,189 +1,48 @@
 ---
 layout: base.njk
-title: Priyank Gandhi | Software Engineer & Technology Professional
-description: Software engineer with experience at Amazon, technical leadership expertise, and a track record of building scalable products. Hackathon winner.
+title: "Priyank Gandhi — Software Engineer & Technology Leader"
+description: "Software engineer with experience at Amazon. Building scalable systems, leading teams, and shipping products. Based in Redwood City, California."
+profilePhoto: "/assets/profile.jpg"
 ---
 
-<!-- Hero Section -->
-<section class="hero">
-  <div class="container">
-    <h1>Priyank Gandhi</h1>
-    <p class="hero-tagline">{{ site.specialty }}</p>
-    <p style="color: rgba(255, 255, 255, 0.85); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-      Building scalable systems and leading high-performing teams. Amazon experience, SJSU graduate, multiple hackathon winner.
-    </p>
-    <div class="hero-cta">
-      <a href="#contact" class="btn btn-primary">Get in Touch</a>
-      <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View LinkedIn</a>
-    </div>
+<div class="page-section">
+  <h1>Hey, I'm Priyank 👋</h1>
+  <p class="page-subtitle">Software engineer and technology leader based in California.</p>
+  <div class="divider"></div>
+
+  <p>I build scalable systems, lead engineering teams, and ship products that solve real problems. Currently at Amazon, with a background from San Jose State University.</p>
+  <p>My career has been shaped by a love for building things — from distributed systems serving millions of customers to side projects like PermTrackr. I've won hackathons three years running and I'm always looking for the next challenge.</p>
+  <p>When I'm not coding, you'll find me mentoring engineers, exploring new technologies, and thinking about what's next in tech.</p>
+
+  <div class="skill-tags">
+    <span class="skill-tag">Distributed Systems</span>
+    <span class="skill-tag">Technical Leadership</span>
+    <span class="skill-tag">Full-Stack</span>
+    <span class="skill-tag">Cloud Architecture</span>
+    <span class="skill-tag">Product Development</span>
+    <span class="skill-tag">Mentorship</span>
   </div>
-</section>
+</div>
 
-<!-- About Section -->
-<section id="about" class="section">
-  <div class="container">
-    <h2>About Me</h2>
-    <div class="about-grid">
-      <div>
-        <img src="/assets/profile.jpg" alt="{{ site.name }}" class="profile-photo">
-      </div>
-      <div class="about-content">
-        <p>
-          I'm a software engineer and technology leader with a passion for building products that solve real problems. With experience at Amazon and a background in computer science from San José State University, I combine technical depth with business acumen.
-        </p>
-        <p>
-          I've spent my career architecting scalable systems, leading engineering teams, and shipping products that users love. My approach balances innovation with pragmatism—focusing on what truly matters for users and the business.
-        </p>
-        <p>
-          Beyond my professional work, I'm passionate about emerging technologies, mentoring junior engineers, and staying at the forefront of the industry. I've won hackathons in 2015, 2016, and 2017, driving my commitment to continuous learning and innovation.
-        </p>
-        <p>
-          I'm always interested in connecting with fellow technologists, exploring exciting opportunities, and discussing ideas that push the boundaries of what's possible.
-        </p>
+<div class="page-section">
+  <h2>Highlights</h2>
+  <div class="divider"></div>
 
-        <div class="highlights">
-          <div class="highlight-card">
-            <strong>906+</strong>
-            <span>LinkedIn Followers</span>
-          </div>
-          <div class="highlight-card">
-            <strong>500+</strong>
-            <span>Connections</span>
-          </div>
-          <div class="highlight-card">
-            <strong>3x</strong>
-            <span>Hackathon Winner</span>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="card">
+    <div class="card-label">Current</div>
+    <h3>Amazon</h3>
+    <p>Building mission-critical systems serving millions of customers. Distributed systems, microservices, and cross-functional technical leadership.</p>
   </div>
-</section>
 
-<!-- Services Section -->
-<section id="services" class="section section-alt">
-  <div class="container">
-    <h2>What I Do</h2>
-    <p style="color: var(--text-secondary); max-width: 600px;">
-      I offer a range of services tailored to help organizations build better products and scale their technical teams.
-    </p>
-    
-    <div class="services-grid">
-      {% for service in services %}
-      <div class="service-card">
-        <img src="{{ service.icon }}" alt="{{ service.alt }}" class="service-icon">
-        <h3>{{ service.name }}</h3>
-        <p>{{ service.description }}</p>
-      </div>
-      {% endfor %}
-    </div>
+  <div class="card">
+    <div class="card-label">Education</div>
+    <h3>San Jose State University</h3>
+    <p>Graduate studies in Computer Science (2006–2008). Strong foundation in algorithms, system design, and software engineering.</p>
   </div>
-</section>
 
-<!-- Featured Work -->
-<section class="section">
-  <div class="container">
-    <h2>Featured Work</h2>
-    <p style="color: var(--text-secondary); margin-bottom: 2rem;">
-      Here are some of my notable projects and achievements:
-    </p>
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
-      <div style="border: 1px solid var(--border-color); border-radius: 0.75rem; padding: 2rem; box-shadow: var(--shadow-sm);">
-        <h3 style="margin-top: 0; color: var(--secondary-color);">Amazon</h3>
-        <p style="color: var(--text-secondary);">
-          Contributed to mission-critical systems serving millions of customers. Experience with distributed systems, microservices architecture, and leading cross-functional technical initiatives.
-        </p>
-      </div>
-
-      <div style="border: 1px solid var(--border-color); border-radius: 0.75rem; padding: 2rem; box-shadow: var(--shadow-sm);">
-        <h3 style="margin-top: 0; color: var(--secondary-color);">PermTrackr</h3>
-        <p style="color: var(--text-secondary);">
-          Founded and built <a href="{{ site.permtrackr }}" target="_blank" rel="noopener noreferrer">PermTrackr</a>, a comprehensive platform for managing permissions and access control. Full-stack product development from concept to production.
-        </p>
-      </div>
-
-      <div style="border: 1px solid var(--border-color); border-radius: 0.75rem; padding: 2rem; box-shadow: var(--shadow-sm);">
-        <h3 style="margin-top: 0; color: var(--secondary-color);">Hackathon Excellence</h3>
-        <p style="color: var(--text-secondary);">
-          Winner of Take Initiative Hackathon in 2015, 2016, and 2017. Demonstrated consistent innovation and ability to ship products quickly under pressure.
-        </p>
-      </div>
-    </div>
+  <div class="card">
+    <div class="card-label">Awards</div>
+    <h3>3x Hackathon Winner</h3>
+    <p>Take Initiative Hackathon winner in 2015, 2016, and 2017. Consistent innovation under pressure.</p>
   </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="section section-alt">
-  <div class="container">
-    <h2>Let's Connect</h2>
-    <p style="color: var(--text-secondary); margin-bottom: 2rem;">
-      Whether you have a question or just want to say hello, feel free to reach out. I'm always happy to connect with fellow technologists and explore new opportunities.
-    </p>
-
-    <div class="contact-container">
-      <form id="contact-form" class="contact-form" method="POST">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" required></textarea>
-        </div>
-
-        <input type="hidden" name="_subject" value="New message from {{ site.name }} portfolio">
-        <input type="hidden" name="_captcha" value="false">
-
-        <button type="submit" class="btn btn-primary">Send Message</button>
-        <div id="form-status" class="form-status"></div>
-      </form>
-
-      <div class="contact-info">
-        <h3>Contact Information</h3>
-        
-        <div class="contact-item">
-          <strong>Phone</strong>
-          <a href="tel:{{ site.phone }}">{{ site.phone_display }}</a>
-        </div>
-
-        <div class="contact-item">
-          <strong>Email</strong>
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a></a>
-        </div>
-
-        <div class="contact-item">
-          <strong>Location</strong>
-          <p>{{ site.address }}</p>
-        </div>
-
-        <div class="contact-item">
-          <strong>Online</strong>
-          <div class="social-links">
-            <a href="{{ site.linkedin }}" class="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M20 0H4C1.794 0 0 1.794 0 4v16c0 2.206 1.794 4 4 4h16c2.206 0 4-1.794 4-4V4c0-2.206-1.794-4-4-4zM8 20H5v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zM20 20h-3v-5c0-1.657-.672-2.785-2.073-2.785-1.131 0-1.8.761-2.095 1.498-.108.263-.135.631-.135 1v5.287h-3v-10h3v1.37c.427-.658 1.188-1.597 2.883-1.597 2.105 0 3.685 1.376 3.685 4.336V20z"/>
-              </svg>
-            </a>
-            <a href="{{ site.github }}" class="social-link" title="GitHub" target="_blank" rel="noopener noreferrer">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-
-        <p style="margin-top: 2rem; font-size: 0.875rem; color: var(--text-secondary);">
-          <strong>Want to chat on WhatsApp?</strong><br>
-          <a href="https://wa.me/14084615325?text=Hi%20Priyank!%20I%27d%20like%20to%20connect%20with%20you." target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">Message on WhatsApp</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+</div>
