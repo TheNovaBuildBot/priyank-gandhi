@@ -1,0 +1,8 @@
+name = "priyank-gandhi"
+type = "static"
+account_id = ""
+workers_dev = true
+routes = []
+
+[assets]
+directory = "./_site"

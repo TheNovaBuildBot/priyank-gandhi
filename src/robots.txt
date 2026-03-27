@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://priyank-gandhi.pages.dev/sitemap.xml

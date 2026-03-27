@@ -1,0 +1,14 @@
+{
+  "name": "priyank-gandhi",
+  "version": "1.0.0",
+  "description": "Priyank Gandhi - Software Engineer & Technology Professional",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "wrangler": "^4.0.0"
+  }
+}
